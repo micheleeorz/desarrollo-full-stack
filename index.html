@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Centro "renaciendo"</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/estyle.css">
+</head>
+
+
+<body>
+
+    <header id="encabezado">
+
+  <!-- HERO / BANNER -->
+  <section class="hero">
+    <div class="hero-contenido">
+      <h1>Renaciendo con las bebis</h1>
+      <p class="hero-sub">Centro de rehabilitación y acompañamiento integral</p>
+    </div>
+  </section>
+
+  <!-- RECUADRO CENTRAL (DESCRIPCIÓN) -->
+  <section class="intro">
+    <div class="contenedor">
+      <div class="tarjeta tarjeta-centro">
+        <p>
+          Centro de rehabilitación y acompañamiento integral. Brindamos apoyo emocional,
+          físico y social para que cada persona recupere su bienestar con dignidad y respeto.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISIÓN y VISIÓN (2 columnas) -->
+  <section class="mision-vision">
+    <div class="contenedor">
+      <div class="grid-dos">
+        <div class="tarjeta">
+          <h2>Misión</h2>
+          <p>
+            Acompañar a cada paciente en su proceso de recuperación con atención humana,
+            profesional y personalizada, promoviendo hábitos saludables y una vida plena.
+          </p>
+        </div>
+
+        <div class="tarjeta">
+          <h2>Visión</h2>
+          <p>
+            Ser un centro reconocido por su calidad, calidez y resultados, creando una comunidad
+            de apoyo que inspire cambios positivos y sostenibles.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</header>
+
+<div class="caja-click" onclick="cambiarColor()">
+  <p>click akiii</p>
+</div>
+
+    <!-- PROYECTOS / SERVICIOS -->
+    <section id="proyectos">
+      <h2>Programas y servicios</h2>
+
+      <article class="proyecto">
+        <h3>Programa “JB: Vuelve a intentarlo”</h3>
+        <p>
+          Sesiones de acompañamiento y motivación para reforzar autoestima, disciplina y
+          objetivos personales.
+        </p>
+        <a href="https://youtu.be/_Z5-P9v3F8w?si=xHAfEq9R-oTEngFa" target="_blank">Ver más</a>
+      </article>
+
+      <article class="proyecto">
+        <h3>Terapia ocupacional “Minion Mode”</h3>
+        <p>
+          Actividades prácticas y creativas para mejorar coordinación, concentración y hábitos
+          diarios. Pequeños pasos, grandes avances.
+        </p>
+        <a href="https://youtu.be/_jNhwaqG94k?si=MfvEQqLu8cTG529L" target="_blank">Ver más</a>
+      </article>
+
+      <article class="proyecto">
+        <h3>Rehabilitación física y movilidad</h3>
+        <p>
+          Rutinas guiadas para fortalecer, recuperar movilidad y prevenir recaídas con seguimiento
+          profesional.
+        </p>
+        <a href="https://youtu.be/Ys7-6_t7OEQ?si=oGcnWL4NnKnO_oE1" target="_blank">Ver más</a>
+      </article>
+    </section>
+
+
+    <section id="comentarios">
+  <div class="contenedor">
+    <h2>Comentarios de pacientes y familiares</h2>
+    <hr class="linea">
+
+    <article class="comentario">
+      <h3>Maluma <span>dice:</span></h3>
+      <p>
+        Agradecería me enviaran información de cómo funcionan sus centros,
+        es para un joven de 24 años. ¿Tienen forma de ayudarlo?
+      </p>
+      <p class="fecha">Lunes, 3 de octubre de 2022.</p>
+    </article>
+
+    <article class="comentario">
+      <h3>Jacob Elordi <span>dice:</span></h3>
+      <p>
+        A mí me cambió la vida estar internado en un centro de rehabilitación.
+        Buena atención y muy accesible.
+      </p>
+      <p class="fecha">Viernes, 17 de febrero de 2023.</p>
+    </article>
+
+    <article class="comentario">
+      <h3>Selena Gómez <span>dice:</span></h3>
+      <p>
+        Estoy buscando un centro contra las adicciones para mi hijo.
+        ¿Me podrían orientar por favor?
+      </p>
+      <p class="fecha">Martes, 12 de septiembre de 2023.</p>
+    </article>
+
+  </div>
+</section>
+
+    <!-- CONTACTO -->
+    <img class="imagen-separador" src="imagenes/jb.jpg" alt="Imagen del programa JB">
+
+    <section id="contacto">
+  <div class="contenedor">
+    <h2>Contacto</h2>
+    <p class="subtitulo">¿Quieres que te ayudemos?</p>
+
+    <div class="contacto-card">
+      <!-- FORMULARIO -->
+      <form class="form-contacto">
+        <div class="fila">
+          <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" type="text" name="nombre" placeholder="Tu nombre" required>
+          </div>
+
+          <div class="campo">
+            <label for="correo">Correo electrónico</label>
+            <input id="correo" type="email" name="correo" placeholder="tunombre@email.com" required>
+          </div>
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos cómo podemos ayudarte" required></textarea>
+        </div>
+
+        <button class="btn-enviar" type="submit">Enviar</button>
+      </form>
+
+      <!-- INFO EXTRA (opcional, pero se ve pro) -->
+      <aside class="info-contacto">
+        <h3>También puedes contactarnos vía:</h3>
+        <p><strong>📞 Tel:</strong> 55 1234 5678</p>
+        <p><strong>✉️ Email:</strong> contacto@centrorenacer.com</p>
+        <p><strong>📍 Dirección:</strong> CDMX, México</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.1336484611124!2d-81.47066052470528!3d28.475521475750828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77f389a2597f5%3A0x16b068bb06c9112f!2sMinion%20Land!5e0!3m2!1ses-419!2smx!4v1768435725579!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <!-- PIE DE PÁGINA -->
+  <footer id="pie">
+    <h2>Redes sociales</h2>
+
+    <a href="https://facebook.com" target="_blank">Facebook</a><br>
+    <a href="https://instagram.com" target="_blank">Instagram</a><br>
+    <a href="https://twitter.com" target="_blank">X</a>
+
+    <p>
+      &copy; 2026 Centro Renacer. Todos los derechos reservados.
+    </p>
+  </footer>
+
+
+<script>
+  function cambiarColor() {
+    const caja = document.querySelector('.caja-click');
+    caja.classList.toggle('activa');
+  }
+</script>
+
+
+</body>
+</html>
+
+
+
+
+

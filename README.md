@@ -1,1 +1,0 @@
-# desarrollo-full-stack
